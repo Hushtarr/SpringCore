@@ -1,4 +1,4 @@
-package com.demo.bean;
+package com.bean1.bean;
 
 
 import lombok.Data;

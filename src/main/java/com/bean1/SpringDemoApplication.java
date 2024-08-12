@@ -1,8 +1,9 @@
-package com.demo;
+package com.bean1;
 
-import com.demo.bean.Car;
-import com.demo.config.ProjectConfig;
 
+
+import com.bean1.bean.Car;
+import com.bean1.config.ProjectConfig;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -12,7 +13,7 @@ public class SpringDemoApplication {
     public static void main(String[] args) {
         //SpringApplication.run(SpringDemoApplication.class, args);
         var bn1= new AnnotationConfigApplicationContext(ProjectConfig.class);
-        var machine=bn1.getBean( "Acar",Car.class);
+        var machine=bn1.getBean( "Acar", Car.class);
         System.out.println(machine.getName());
 
         var bn2=new AnnotationConfigApplicationContext(ProjectConfig.class);

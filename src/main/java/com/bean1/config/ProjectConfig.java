@@ -1,6 +1,6 @@
-package com.demo.config;
+package com.bean1.config;
 
-import com.demo.bean.Car;
+import com.bean1.bean.Car;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
