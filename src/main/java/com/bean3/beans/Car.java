@@ -1,7 +1,8 @@
 package com.bean3.beans;
 
+import lombok.Data;
 import org.springframework.stereotype.Component;
-
+@Data
 @Component
 public class Car {
 
@@ -10,21 +11,4 @@ public class Car {
     }
     private String name = "Toyota";
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void printHello(){
-        System.out.println(
-            "Printing Hello from Component Car Bean");
-    }
-
-    @Override
-    public String toString(){
-        return "Car name is - "+name;
-    }
 }

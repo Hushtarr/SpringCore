@@ -1,9 +1,10 @@
 package com.bean3.beans;
 
 import com.bean2.beans.Vehicle;
+import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
+@Data
 @Component
 public class Person {
 
@@ -23,21 +24,6 @@ public class Person {
     /*@Autowired*/
     private Car car;
 
-    public String getName() {
-        return name;
-    }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Car getCar() {
-        return car;
-    }
-
-    /*@Autowired*/
-    public void setCar(Car vehicle) {
-        this.car = car;
-    }
 
 }

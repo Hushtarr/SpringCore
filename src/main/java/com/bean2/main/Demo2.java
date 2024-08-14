@@ -5,7 +5,7 @@ import com.bean2.beans.Vehicle;
 import com.bean2.config.ProjectConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class SpringDemoApplication {
+public class Demo2 {
 
     public static void main(String[] args) {
 

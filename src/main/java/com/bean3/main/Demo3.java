@@ -7,7 +7,7 @@ import com.bean3.beans.Person;
 import com.bean3.config.ProjectConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class Example11 {
+public class Demo3 {
 
     public static void main(String[] args) {
 

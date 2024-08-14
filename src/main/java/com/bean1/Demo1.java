@@ -7,8 +7,7 @@ import com.bean1.config.ProjectConfig;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-@SpringBootApplication
-public class SpringDemoApplication {
+public class Demo1 {
 
     public static void main(String[] args) {
         //SpringApplication.run(SpringDemoApplication.class, args);
