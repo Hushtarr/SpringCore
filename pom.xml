@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>Hushtar</groupId>
-    <artifactId>SpringCore_Bean</artifactId>
+    <artifactId>SpringCore</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>SpringCore_Bean</name>
     <description>Demo</description>
