@@ -5,7 +5,7 @@ import com.part6.beans.Person;
 import com.part6.config.MyConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class Demo5 {
+public class Demo6 {
     public static void main(String[] args) {
         var context= new  AnnotationConfigApplicationContext(MyConfig.class);
 
