@@ -1,18 +1,16 @@
 package com.bean5.beans;
 
-import lombok.Data;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
+import lombok.Getter;
+import lombok.Setter;
+import org.springframework.beans.factory.config.BeanDefinition;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-@Data
+@Getter
+@Setter
 @Component
+@Scope(BeanDefinition.SCOPE_SINGLETON)
 public class Person {
     private String name;
     private int age;
-    private Car car;
-    @Autowired
-    public Person(@Qualifier("carA") Car car) {
-        this.car = car;
-    }
 }

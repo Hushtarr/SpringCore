@@ -1,11 +1,15 @@
 package com.bean5.beans;
 
-import lombok.Data;
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.Getter;
+import lombok.Setter;
+import org.springframework.beans.factory.config.BeanDefinition;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-@Data
-@Component(value = "theCar")
+@Getter
+@Setter
+@Component
+@Scope(BeanDefinition.SCOPE_PROTOTYPE)
 public class Car {
     private String brand;
     private String color;

@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Getter
 @Setter
+//  @Lazy -> bean will be created when it needs rather than created while the app starts
 public class Person {
 
     private String name="Lucy";
